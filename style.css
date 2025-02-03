@@ -586,3 +586,6 @@ span {
     text-indent: 13px;
     margin: 4px 0px;
 }
+.exp-box{
+    --second-bg-color: #1f2426 !important;
+}
