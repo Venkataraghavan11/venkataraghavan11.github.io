@@ -2,350 +2,184 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--box icon-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="./image/icon.png" />
-    <title>Portfolio</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./image/icon.png" />
+  <title>Venkataraghavan R. | Portfolio</title>
 </head>
 
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="nav">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+  <div class="progress" id="progress"></div>
+  <div class="glow" id="glow"></div>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
 
-        </nav>
-    </header>
+  <header class="header">
+    <a href="#home" class="logo">VR<span>.</span></a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="nav">
+      <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#education">Education</a>
+      <a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!--home section design-->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, I'm <h1>Venkataraghavan R.</h1>
-            </h3>
-            <h3>Software Developer</h3>
-            <p>To work in a competitive environment that effectively utilize my analytical,interpersonal,
-                leadership and organizational skills to conceive and achieve solution which help organization's
-                development.
-            </p>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/venkata-raghavan-r-rvr1102" target="_blank"><i
-                        class='bx bxl-linkedin'></i></a>
-                <a href="https://wa.me/message/5PRL72ZNO6RAJ1" target="_blank"><i class="bx bxl-whatsapp"></i></a>
-            </div>
-            <a href="https://drive.google.com/file/d/1s-r71_wIEF_L-yOYYhCgLbo4bdLXTeOD/view?usp=sharing" target="_blank"
-                class="btn">Download Resume</a>
+  <section class="home" id="home">
+    <div class="home-content reveal">
+      <span class="chip"><i></i> Open to opportunities</span>
+      <h3>Hello, I'm</h3>
+      <h1>Venkataraghavan <b>R.</b></h1>
+      <h2><span id="typed"></span><em class="caret"></em></h2>
+      <p>To work in a competitive environment that effectively utilizes my analytical, interpersonal, leadership and
+        organizational skills to conceive and achieve solutions which help organization's development.</p>
+      <div class="cta">
+        <a href="https://drive.google.com/file/d/1s-r71_wIEF_L-yOYYhCgLbo4bdLXTeOD/view?usp=sharing" target="_blank"
+          class="btn">Download Resume <i class='bx bx-download'></i></a>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/venkata-raghavan-r-rvr1102" target="_blank"><i
+              class='bx bxl-linkedin'></i></a>
+          <a href="https://wa.me/message/5PRL72ZNO6RAJ1" target="_blank"><i class="bx bxl-whatsapp"></i></a>
         </div>
-        <div class="home-img">
-            <img src="./image/me.png" alt="me">
-        </div>
-    </section>
+      </div>
+      <div class="stats">
+        <div><b data-n="3" data-s="+">0</b><span>Years Exp.</span></div>
+        <div><b data-n="12" data-s="">0</b><span>Team Size</span></div>
+        <div><b data-n="2" data-s="">0</b><span>Projects Led</span></div>
+      </div>
+    </div>
+    <div class="home-img reveal">
+      <div class="ring"></div>
+      <img src="./image/me.png" alt="me">
+      <span class="float f1"><i class='bx bxl-php'></i> Laravel</span>
+      <span class="float f2"><i class='bx bxl-react'></i> React</span>
+      <span class="float f3"><i class='bx bxl-python'></i> Python</span>
+    </div>
+  </section>
 
+  <section class="about" id="about">
+    <div class="about-img reveal"><img src="./image/me.png" alt="me"></div>
+    <div class="about-content reveal">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Ready to take the next step in my career as <span>Senior Developer...</span></h3>
+      <p>I'm Venkataraghavan, a 24-year-old developer with a B.Tech in Electronics and Communication Engineering from
+        Sastra Deemed University (2023) and a Full Stack Developer course from Besant Technologies. I started my career
+        at Salesqueen Software Solutions as a Software Developer and am currently working as a Senior Developer at
+        Overseas Cyber Technical Services Pvt. Ltd., where I lead end-to-end software projects, manage a 12-member
+        development, QA and customer support team, and build full-stack applications using PHP/Laravel, Python and
+        React.js. Along the way I have grown strong in logical thinking, problem solving, team leadership and handling
+        servers, integrations and AI-powered platforms.</p>
+      <p>My goal is to keep growing in a reputed organization, sharpen my skills and experience, and deliver reliable,
+        scalable solutions. I'm always curious and eager to learn new things. Thank you for your valuable time, and I
+        look forward to the possibility of contributing to your team — I am confident that I would be a valuable asset
+        to your organization.</p>
+    </div>
+  </section>
 
-    <!--about section design-->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="./image/me.png" alt="me">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Ready to take the next step in my career as <span>Senior Developer...</span> </h3>
-            <p>I'm Venkataraghavan, a 24-year-old developer with a B.Tech in Electronics and Communication
-                Engineering from Sastra Deemed University (2023) and a Full Stack Developer course from
-                Besant Technologies. I started my career at Salesqueen Software Solutions as a Software Developer
-                and am currently working as a Senior Developer at Overseas Cyber Technical Services Pvt. Ltd.,
-                where I lead end-to-end software projects, manage a 12-member development, QA and customer support
-                team, and build full-stack applications using PHP/Laravel, Python and React.js.
-                Along the way I have grown strong in logical thinking, problem solving, team leadership and
-                handling servers, integrations and AI-powered platforms.
-                My goal is to keep growing in a reputed organization, sharpen my skills and experience, and
-                deliver reliable, scalable solutions. I'm always curious and eager to learn new things.
-                Thank you for your valuable time, and I look forward to the possibility of contributing to your team,
-                I am confident that I would be a valuable asset to your organization.
-            </p>
+  <section class="education" id="education">
+    <h2 class="heading">My <span>Education</span></h2>
+    <div class="education-container">
+      <div class="education-box tilt reveal"><i class='bx bx-badge-check'></i>
+        <h3>Graduation</h3>
+        <ul class="edu">
+          <li>Bachelors of Technology in Electronics and Communication Engineering at Sastra Deemed University,
+            graduated 2023</li>
+          <li>CGPA: 7.4629</li>
+        </ul>
+      </div>
+      <div class="education-box tilt reveal"><i class='bx bxs-graduation'></i>
+        <h3>HSC (12th)</h3>
+        <ul class="edu">
+          <li>Computer Science group at Vidya Vikas Matriculation Higher Secondary School, passed out 2019</li>
+          <li>Percentage: 71%</li>
+        </ul>
+      </div>
+      <div class="education-box tilt reveal"><i class='bx bxs-book-reader'></i>
+        <h3>SSLC (10th)</h3>
+        <ul class="edu">
+          <li>State Board at Christ the King Matriculation Higher Secondary School, passed out 2017</li>
+          <li>Percentage: 93%</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-        </div>
-    </section>
+  <section class="education expedu" id="experience">
+    <h2 class="heading">My <span>Experience</span></h2>
+    <div class="timeline">
+      <div class="exp-box reveal"><i class='bx bxs-briefcase dot'></i>
+        <h4>Oct 2025 – Present</h4>
+        <h3>Senior Developer <small>Overseas Cyber Technical Services Pvt. Ltd.</small></h3>
+        <ol class="edu eduexp">
+          <li>Led 2 end-to-end software projects as Senior Developer &amp; Project Manager, managing a 12-member
+            development, QA, and customer support team across planning, execution, delivery, and maintenance.</li>
+          <li>Developed full-stack applications using PHP/Laravel, Python, and React.js, with Git/GitHub for version
+            control, collaboration, and deployment workflows.</li>
+          <li>Managed Ubuntu servers, Cron jobs, scheduled tasks, Stripe payment gateway, third-party APIs, and
+            production environments.</li>
+          <li>Worked with Oracle, Elasticsearch, Qdrant, and Weaviate for database, search, and vector-based AI
+            workflows, while managing AI and other API dashboards.</li>
+          <li>Handled digital operations: SEO, Google Analytics, Search Console, social media, marketing, customer
+            communication, and business platforms.</li>
+        </ol>
+      </div>
+      <div class="exp-box reveal"><i class='bx bxs-briefcase dot'></i>
+        <h4>March 2023 – Sept 2025</h4>
+        <h3>Junior Software Developer <small>Salesqueen Software Solutions</small></h3>
+        <ol class="edu eduexp">
+          <li>Built dynamic web applications using PHP, HTML, CSS, Ajax, and JavaScript, with the CodeIgniter framework
+            for scalable solutions.</li>
+          <li>Implemented ERP, CRM, Payroll and Manufacturing software, improving data management and operational
+            efficiency.</li>
+          <li>Led a real estate platform with property listings, search filters, payment calculations, and user
+            authentication.</li>
+          <li>Managed and mentored a team of 15 developers, improving project delivery timelines by 50%.</li>
+          <li>Worked with WhatsApp API, Map API, and Mail Trigger to extend application functionality.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
 
-    <!--education section design -->
-    <section class="education" id="education">
-        <h2 class="heading">My <span>Education</span></h2>
-        <div class="education-container">
-            <div class="education-box">
-                <i class='bx bx-badge-check'></i>
-                <h3>Graduation</h3>
-                <p>
-                <ul class="edu">
-                    <li>Bachelors of Technology in Electronics and Communication Engineering
-                        at Sastra Deemed University graduated on 2023,</li>
-                    <li>CGPA: 7.4629</li>
-                </ul>
-                </p>
+  <section class="skills" id="skills">
+    <h2 class="heading">Technical <span>Skills</span></h2>
+    <div class="skills-container" id="skillsGrid"></div>
+  </section>
 
-            </div>
-            <div class="education-box">
-                <i class='bx bxs-briefcase'></i>
-                <h3>HSC (12th)</h3>
-                <p>
-                <ul class="edu">
-                    <li>Computer Science group at Vidya Vikas Matriculation Higher Secondary School passed out on 2019,
-                    </li>
-                    <li>Percentage: 71%</li>
-                </ul>
-                </p>
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="" id="contactForm">
+      <div class="input-box">
+        <div class="alerts fw-bold">Submitted Sucessfully</div>
+        <div class="alertns fw-bold">Please fill the form</div>
+        <div class="alertans fw-bold">Please fill all required details</div>
 
-            </div>
-            <div class="education-box">
-                <i class='bx bxs-briefcase'></i>
-                <h3>SSLC (10th)</h3>
-                <p>
-                <ul class="edu">
-                    <li>SSLC State Board at Christ the King Matriculation Higher Secondary School passed out on 2017,
-                    </li>
-                    <li>Percentage: 93%</li>
-                </ul>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="education expedu" id="experience">
-        <h2 class="heading">My <span>Experience</span></h2>
-        <div class="education-container">
-            <div class="education-box exp-box">
-                <i class='bx bxs-briefcase'></i>
-                <h3>Senior Developer at Overseas Cyber Technical Services Pvt. Ltd.</h3>
-                <h4>Oct 2025 to Present</h4>
-                <p>
-                <ol class="edu eduexp">
-                    <li>Led 2 end-to-end software projects as a Senior Developer &amp; Project Manager, managing a
-                        12-member development, QA, and customer support team across planning, execution, delivery, and
-                        maintenance.</li>
-                    <li>Developed and managed full-stack applications using PHP/Laravel, Python, and React.js, with
-                        Git/GitHub for version control, collaboration, code management, and deployment workflows.</li>
-                    <li>Managed infrastructure and integrations including Ubuntu servers, Cron jobs, scheduled tasks,
-                        Stripe payment gateway, third-party APIs, and production environments.</li>
-                    <li>Worked with Oracle, Elasticsearch, Qdrant, and Weaviate for database, search, and vector-based
-                        AI workflows, while managing AI and other API dashboards and platforms.</li>
-                    <li>Handled digital operations and business support, including SEO, Google Analytics, Google Search
-                        Console, social media profiles, marketing activities, customer communication, and business
-                        operations platforms.</li>
-                </ol>
-                </p>
+        <input type="text" name="name" class="contactinput" id="name" placeholder="Full Name" />
+        <input type="email" name="mail" class="contactinput" id="mail" placeholder="Email Address" />
+      </div>
+      <div class="input-box">
+        <input type="number" name="mobnum" class="contactinput" id="mobnum" placeholder="Mobile Number" />
+        <input type="text" name="msg" class="contactinput" id="msg" placeholder="Message" />
+      </div>
 
-            </div>
-            <div class="education-box exp-box">
-                <i class='bx bxs-briefcase'></i>
-                <h3>Junior Software Developer at Salesqueen Software Solutions</h3>
-                <h4>March 2023 to Sept 2025</h4>
-                <p>
-                <ol class="edu eduexp">
-                    <li>Developed and maintained dynamic web applications using PHP, HTML, CSS, Ajax, and JavaScript,
-                        enhancing user experience and functionality. Used the CodeIgniter framework to build scalable
-                        and efficient solutions.</li>
-                    <li>Implemented and managed ERP, CRM, Payroll and Manufacturing software, optimizing easy data
-                        managing business processes and improving operational efficiency.</li>
-                    <li>Led the development of a real estate platform, integrating features like property listings,
-                        search filters, payment calculations, and user authentication to enhance usability.</li>
-                    <li>Managed and mentored a team of 15 developers, successfully improving project delivery timelines
-                        by 50%.</li>
-                    <li>Worked with various APIs, including WhatsApp API, Map API, and Mail Trigger, to extend
-                        application functionality and improve integration.</li>
-                </ol>
-                </p>
+      <button type="submit" class="btn">Sent Message</button>
 
-            </div>
-        </div>
-    </section>
+    </form>
+  </section>
 
-    <!--Skills section  design -->
-    <section class="skills" id="skills">
-        <h2 class="heading">Technical <span>Skills</span></h2>
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2026 by VENKATARAGHAVAN | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop"><a href="#home"><i class='bx bx-up-arrow-alt'></i></a></div>
+  </footer>
 
-        <div class="skills-container">
-            <div class="skills-box">
-                <img src="./image/c.png" alt="C">
-                <div class="skills-layer">
-                    <h4>C</h4>
-                    <p>Knowledge in OOPs concept, Done Certifications</p>
-                    <a><i class='bx bxl-c-plus-plus'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/cpp.png" alt="C++">
-                <div class="skills-layer">
-                    <h4>C++</h4>
-                    <p>Knowledge in OOPs concept, Done Certification in Udemy</p>
-                    <a href="https://www.udemy.com/certificate/UC-339357b4-48db-4a24-9875-592ea80d6f09/"
-                        target="_blank"><i class='bx bxl-c-plus-plus'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/java.png" alt="Java">
-                <div class="skills-layer">
-                    <h4>JAVA</h4>
-                    <p>Knowledge in OOPs concept, JLabel, Done Certifications.</p>
-                    <a><i><img
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoRJREFUSEvF1lmIzmEUx/HPWCJl38vuQtlK1iKylAslN3JHyq2tFFEiRaJcKMKFC0mhXClFIYm4QITsS9mX7LI/p55XY2Z4l5kxT/2bmv//Pd/n/M55fuep0kSrqom4GgrcA0/KSaKhwAuwF59KhTcUeA124tH/BLfAMUzGz/8FDuhuXMLmUqHxXX2kboVD+I6ZOduI1w1Pi22iUvBAHMRpLEYzzMAznMWPxgCPw1FsSYDVmIIlWIj7xYCF9+VmHN/fxfEEmY85WI9RKfPXpUIrqfFInEOXDLqCPdhYDrQScFu8QJvcVJH9DUxvbHDE35abKpxqA1ZgEbaWAy+3xhG7cIzm4i2u4z2GNzY44nfAbOzCKnRM8GUNDQ5VJiJc6kKS9VUGtEzQr5iWuzyMpLDGYiqap2ddXRsqJnXnbAif0+RZjnt5/IXEXdE9nef2WeZ3uIqL+JJhYShD8LwmvBg4vh+RpR2fsy7EiGzv4BbiWNUciYPS4DiJfqkBY+N/rFLA8YOQdSk21TGBotkieNjkzRw9jt3+7GznK5G68JswjDO5o1vnuRty9kenDAyJwzbj/2NSjU/VlWmllhmZh/RhIHGE4roTz7dyOrpc55qUfHoe9uVuLrCiyfpkaR+WuoFiNY76jcblXOehaYavTTeOCXkUBiduHSdSh29PHXygvuCQMgK1SzVbmabQtVIDVvtuVtr04Rrq/H79t4zjKOzIjvQGtzM8/r6ssYmoe0jdCwPwIQ+OI1mN6PRaF4NiUhcYfdE7X2vCVOKJ7o71EQ/ymQ5j6ZluJ1GSKEFcAsPLa61SwfHdsNRAg7P8kXX1zAtn+XE2kzCWf65SwcXilP2+ycC/AHTAeh8+m2N7AAAAAElFTkSuQmCC" /></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/py.png" alt="Python">
-                <div class="skills-layer">
-                    <h4>PYTHON</h4>
-                    <p>Knowledge in OOPs concept, Few Libraries like MultiThreading, re, Tkinter, SQLite3, Django, For
-                        projects refer my resume and completed certification in Besant Technologies.</p>
-                    <a href="https://drive.google.com/file/d/1e3kvOcJf-p9BE31tEyboqPU9e53KJtE3/view?usp=sharing"
-                        target="_blank"><i class='bx bxl-python'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/html.png" alt="HTML">
-                <div class="skills-layer">
-                    <h4>HTML</h4>
-                    <p>All concepts are known and completed certification in Udemy and Besant Technologies.</p>
-                    <a href="https://www.udemy.com/certificate/UC-de9c5c3d-9622-47e8-acab-18d37bd25e60/"
-                        target="_blank"><i class='bx bxl-html5'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/css.png" alt="CSS">
-                <div class="skills-layer">
-                    <h4>CSS</h4>
-                    <p>All concepts are known and completed certification in Udemy and Besant Technologies.</p>
-                    <a href="https://www.udemy.com/certificate/UC-de9c5c3d-9622-47e8-acab-18d37bd25e60/"
-                        target="_blank"><i class='bx bxl-css3'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/js.png" alt="JavaScript">
-                <div class="skills-layer">
-                    <h4>JAVASCRIPT</h4>
-                    <p>All concepts are known and completed certification in Besant Technologies.</p>
-                    <a href="https://drive.google.com/file/d/18DZS-FRG631KsB8T6JNEjRzi7P0wBIzr/view?usp=drive_link"
-                        target="_blank"><i class='bx bxl-javascript'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/react.png" alt="ReactJS">
-                <div class="skills-layer">
-                    <h4>REACTJS</h4>
-                    <p>All concepts are known and completed certification in Besant Technologies.</p>
-                    <a href="https://drive.google.com/file/d/18DZS-FRG631KsB8T6JNEjRzi7P0wBIzr/view?usp=drive_link"
-                        target="_blank">
-                        <i class='bx bxl-react'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/sql.png" alt="MySQL">
-                <div class="skills-layer">
-                    <h4>MYSQL</h4>
-                    <p>All concepts are known and completed certification in Besant Technologies.</p>
-                    <a href="https://drive.google.com/file/d/1t61JBH0O-p1VMm0vOjnqqJU6dvhw9VYR/view?usp=sharing"
-                        target="_blank"><i class='bx bxs-data'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/php.png" alt="PHP">
-                <div class="skills-layer">
-                    <h4>PHP</h4>
-                    <p>Familier with all keywords and libraries worked with codeigniter framework.</p>
-                    <a href=""
-                        target="_blank"><i class='bx bxl-php'></i></a>
-                </div>
-            </div>
-
-            <!-- New skills -->
-            <div class="skills-box">
-                <img src="./image/laravel.svg" alt="Laravel">
-                <div class="skills-layer">
-                    <h4>LARAVEL</h4>
-                    <p>Building and managing full-stack PHP applications with the Laravel framework.</p>
-                    <a><i class='bx bxl-php'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/codeigniter.svg" alt="CodeIgniter">
-                <div class="skills-layer">
-                    <h4>CODEIGNITER</h4>
-                    <p>Built scalable ERP, CRM, Payroll and real estate applications using CodeIgniter.</p>
-                    <a><i class='bx bxl-php'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/sqlite.svg" alt="SQLite3">
-                <div class="skills-layer">
-                    <h4>SQLITE3</h4>
-                    <p>Lightweight database handling with SQLite3 in Python and small-scale projects.</p>
-                    <a><i class='bx bxs-data'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/git.svg" alt="Git">
-                <div class="skills-layer">
-                    <h4>GIT</h4>
-                    <p>Version control, collaboration, code management and deployment workflows with Git/GitHub.</p>
-                    <a><i class='bx bxl-git'></i></a>
-                </div>
-            </div>
-            <div class="skills-box">
-                <img src="./image/api.svg" alt="Tools & APIs">
-                <div class="skills-layer">
-                    <h4>TOOLS &amp; APIS</h4>
-                    <p>WhatsApp API, Places API, Email Marketing, Payment gateway and AI APIs.</p>
-                    <a><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--contact section design-->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="" id="contactForm">
-            <div class="input-box">
-                <div class="alerts fw-bold">Submitted Sucessfully</div>
-                <div class="alertns fw-bold">Please fill the form</div>
-                <div class="alertans fw-bold">Please fill all required details</div>
-
-                <input type="text" name="name" class="contactinput" id="name" placeholder="Full Name" />
-                <input type="email" name="mail" class="contactinput" id="mail" placeholder="Email Address" />
-            </div>
-            <div class="input-box">
-                <input type="number" name="mobnum" class="contactinput" id="mobnum" placeholder="Mobile Number" />
-                <input type="text" name="msg" class="contactinput" id="msg" placeholder="Message" />
-            </div>
-
-            <button type="submit" class="btn">Sent Message</button>
-
-        </form>
-
-    </section>
-
-    <!--footer design-->
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2026 by VENKATARAGHAVAN | All Rights Reserved.</p>
-        </div>
-
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase.js"></script>
-    <script src="./databasestore.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase.js"></script>
+  <script src="./databasestore.js"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
